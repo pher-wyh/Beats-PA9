@@ -7,4 +7,5 @@ class Notes : public sf::CircleShape
 {
 public:
 	Notes(const sf::Color &type);
+	Notes & operator=(const Notes &rhs);
 };

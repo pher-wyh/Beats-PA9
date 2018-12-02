@@ -6,4 +6,5 @@ Target::Target()
 	this->setOutlineThickness(5.f);
 	this->setFillColor(sf::Color::Transparent);
 	this->setOutlineColor(sf::Color::White);
+	this->setPosition(sf::Vector2f(170, 315));
 }

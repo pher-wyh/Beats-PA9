@@ -156,10 +156,16 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Notes.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="SE.cpp" />
+    <ClCompile Include="Songs.cpp" />
     <ClCompile Include="SongSelection.cpp" />
+    <ClCompile Include="Success.cpp" />
     <ClCompile Include="Target.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Fade.txt" />
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -167,10 +173,23 @@
     <ClInclude Include="GamePlay.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Notes.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="SE.h" />
     <ClInclude Include="Songs.h" />
     <ClInclude Include="SongSelection.h" />
+    <ClInclude Include="Success.h" />
     <ClInclude Include="Target.h" />
+    <ClInclude Include="Test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Don.wav" />
+    <Media Include="Ka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Fade.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bg.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
