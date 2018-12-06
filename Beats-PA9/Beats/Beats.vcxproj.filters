@@ -13,38 +13,56 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Media">
+      <UniqueIdentifier>{8eedc3de-649e-4585-bd7b-cd8254a1b1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{c416993c-7927-480c-81f9-4f68590defc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{aa2b074f-6303-482f-9a82-01a5ebd3b0a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="Fade.txt">
-      <Filter>Resource Files</Filter>
+    <Text Include="DifferentHeavenH.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="FadeE.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="FadeH.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="DifferentHeavenN.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="FadeN.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="LegendaryE.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="LegendaryN.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="LegendaryH.txt">
+      <Filter>Resource Files\Media</Filter>
+    </Text>
+    <Text Include="DifferentHeavenE.txt">
+      <Filter>Resource Files\Media</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Notes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="GamePlay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Menu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Target.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Bar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SE.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SongSelection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Songs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Queue.h">
@@ -53,21 +71,87 @@
     <ClInclude Include="Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Success.h">
+    <ClInclude Include="Bar.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlayButton.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayButton.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Combo.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Good.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Notes.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SE.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayBG.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBG.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Song1.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Song2.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Song3.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Easy.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hard.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hit.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlay.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBoard.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BGM.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Notes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Target.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Bar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GamePlay.cpp">
@@ -76,41 +160,166 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SongSelection.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SE.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Songs.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Queue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Success.cpp">
+    <ClCompile Include="Bar.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayButton.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Combo.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Good.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Notes.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SE.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Target.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlayButton.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayBG.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBG.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hit.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlay.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Song1.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Song2.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Song3.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SongSelection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Easy.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hard.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBoard.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BGM.cpp">
+      <Filter>Source Files\Objects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="Don.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-    <Media Include="Ka.wav">
-      <Filter>Resource Files</Filter>
-    </Media>
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="DifferentHeaven.ogg">
+      <Filter>Resource Files\Media</Filter>
+    </None>
     <None Include="Fade.ogg">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Media</Filter>
+    </None>
+    <None Include="SkyHigh.ogg">
+      <Filter>Resource Files\Media</Filter>
+    </None>
+    <None Include="Legendary.ogg">
+      <Filter>Resource Files\Media</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="bg.png">
-      <Filter>Resource Files</Filter>
+    <Media Include="Don.wav">
+      <Filter>Resource Files\Media</Filter>
+    </Media>
+    <Media Include="Ka.wav">
+      <Filter>Resource Files\Media</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Good.png">
+      <Filter>Resource Files\Media</Filter>
     </Image>
+    <Image Include="MenuBG.jpg">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="PlayBG.jpg">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Target.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="HowToPlayButton.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="PlayButton.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="ExitButton.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="HowToPlay.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Title.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Easy.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Normal.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Hard.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Song1.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Song2.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+    <Image Include="Song3.png">
+      <Filter>Resource Files\Media</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="TrashHand.ttf">
+      <Filter>Resource Files\Media</Filter>
+    </Font>
+    <Font Include="Yellowtail.otf">
+      <Filter>Resource Files\Media</Filter>
+    </Font>
   </ItemGroup>
 </Project>

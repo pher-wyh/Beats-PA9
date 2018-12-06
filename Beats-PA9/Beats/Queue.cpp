@@ -2,16 +2,12 @@
 
 Queue::Queue()
 {
-	size = 0;
 	sheet = new vector<Notes>;
 }
 
 Queue::~Queue()
 {
-	while (!dequeue())
-	{
-		// delete all elements in queue
-	}
+	sheet->clear();
 
 	delete sheet;
 }
@@ -19,27 +15,20 @@ Queue::~Queue()
 void Queue::enqueue(const Notes &note)
 {
 	sheet->push_back(note);
-	size++;
 }
 
-bool Queue::dequeue()
+Notes Queue::dequeue()
 {
-	bool success = false;
-	if (size != 0)
+	Notes tempNote(sf::Color::Transparent);
+	if (sheet->size() != 0)
 	{
-		success = true;
-		size--;
+		tempNote = sheet->front();
 		sheet->erase(sheet->begin());
 	}
-	return success;
+	return tempNote;
 }
 
 vector<Notes> * Queue::getSheet() const
 {
 	return sheet;
-}
-
-int Queue::getSize() const
-{
-	return size;
 }

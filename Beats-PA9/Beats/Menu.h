@@ -1,14 +1,24 @@
 #pragma once
-#include <SFML\Graphics.hpp>
+#include "Screen.h"
+#include "PlayButton.h"
+#include "HowToPlayButton.h"
+#include "Title.h"
+#include "MenuBG.h"
+#include "HowToPlay.h"
+#include "SongSelection.h"
 
-class Menu  // inherit from ? screen?
+class Menu : public Screen // inherit from ? screen?
 {
 public:
-	void run(sf::RenderWindow &window);
+	void run(sf::RenderWindow &window, BGM &bgm, MenuBG &bg);
 	
 private:
-	// buttons? - play & how to play
-	// title?
-	// wallpaper?
-	// sound effect / background music?
+	PlayButton play;
+	HowToPlayButton howToPlay;
+	Title title;
+	sf::Mouse mouse;
+	HowToPlay instruction;
+	SongSelection songSelection;
+
+	void drawDefault(sf::RenderWindow &window);
 };

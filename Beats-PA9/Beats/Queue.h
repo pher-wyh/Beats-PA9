@@ -12,12 +12,10 @@ public:
 	Queue();
 	~Queue();
 	void enqueue(const Notes &note);
-	bool dequeue();
+	Notes dequeue();
 
-	vector<Notes> * getSheet() const;
-	int getSize() const;
+	vector<Notes> *getSheet() const;
 
 private:
 	vector<Notes> *sheet;
-	int size;
 };

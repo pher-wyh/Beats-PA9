@@ -24,6 +24,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Beats</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Beats</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,45 +152,113 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BGM.cpp" />
+    <ClCompile Include="Easy.cpp" />
+    <ClCompile Include="ExitButton.cpp" />
+    <ClCompile Include="Hard.cpp" />
+    <ClCompile Include="Hit.cpp" />
+    <ClCompile Include="HowToPlay.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="LevelBoard.cpp" />
+    <ClCompile Include="MenuBG.cpp" />
+    <ClCompile Include="Normal.cpp" />
+    <ClCompile Include="PlayBG.cpp" />
     <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="HowToPlayButton.cpp" />
+    <ClCompile Include="PlayButton.cpp" />
+    <ClCompile Include="Combo.cpp" />
     <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="Good.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Notes.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Score.cpp" />
     <ClCompile Include="SE.cpp" />
-    <ClCompile Include="Songs.cpp" />
+    <ClCompile Include="Song1.cpp" />
+    <ClCompile Include="Song2.cpp" />
+    <ClCompile Include="Song3.cpp" />
     <ClCompile Include="SongSelection.cpp" />
-    <ClCompile Include="Success.cpp" />
+    <ClCompile Include="Result.cpp" />
     <ClCompile Include="Target.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Title.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Fade.txt" />
+    <Text Include="DifferentHeavenE.txt" />
+    <Text Include="DifferentHeavenN.txt" />
+    <Text Include="DifferentHeavenH.txt" />
+    <Text Include="FadeH.txt" />
+    <Text Include="FadeE.txt" />
+    <Text Include="FadeN.txt" />
+    <Text Include="LegendaryE.txt" />
+    <Text Include="LegendaryH.txt" />
+    <Text Include="LegendaryN.txt" />
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Easy.h" />
+    <ClInclude Include="ExitButton.h" />
+    <ClInclude Include="Hard.h" />
+    <ClInclude Include="Hit.h" />
+    <ClInclude Include="HowToPlay.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="LevelBoard.h" />
+    <ClInclude Include="MenuBG.h" />
+    <ClInclude Include="BGM.h" />
+    <ClInclude Include="Normal.h" />
+    <ClInclude Include="PlayBG.h" />
     <ClInclude Include="Bar.h" />
+    <ClInclude Include="HowToPlayButton.h" />
+    <ClInclude Include="PlayButton.h" />
+    <ClInclude Include="Combo.h" />
     <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="Good.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Notes.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="Screen.h" />
     <ClInclude Include="SE.h" />
-    <ClInclude Include="Songs.h" />
+    <ClInclude Include="Song1.h" />
+    <ClInclude Include="Song2.h" />
+    <ClInclude Include="Song3.h" />
     <ClInclude Include="SongSelection.h" />
-    <ClInclude Include="Success.h" />
+    <ClInclude Include="Result.h" />
     <ClInclude Include="Target.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="Title.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DifferentHeaven.ogg" />
+    <None Include="Fade.ogg" />
+    <None Include="Legendary.ogg" />
+    <None Include="SkyHigh.ogg" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Don.wav" />
     <Media Include="Ka.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Fade.ogg" />
+    <Image Include="Easy.png" />
+    <Image Include="ExitButton.png" />
+    <Image Include="Good.png" />
+    <Image Include="Hard.png" />
+    <Image Include="HowToPlay.png" />
+    <Image Include="HowToPlayButton.png" />
+    <Image Include="MenuBG.jpg" />
+    <Image Include="Normal.png" />
+    <Image Include="PlayBG.jpg" />
+    <Image Include="PlayButton.png" />
+    <Image Include="Song1.png" />
+    <Image Include="Song2.png" />
+    <Image Include="Song3.png" />
+    <Image Include="Target.png" />
+    <Image Include="Title.png" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="bg.png" />
+    <Font Include="TrashHand.ttf" />
+    <Font Include="Yellowtail.otf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
