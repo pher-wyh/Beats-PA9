@@ -137,9 +137,6 @@
     <ClInclude Include="ExitButton.h">
       <Filter>Header Files\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="LevelBoard.h">
-      <Filter>Header Files\Objects</Filter>
-    </ClInclude>
     <ClInclude Include="Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -236,9 +233,6 @@
       <Filter>Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="Hard.cpp">
-      <Filter>Source Files\Objects</Filter>
-    </ClCompile>
-    <ClCompile Include="LevelBoard.cpp">
       <Filter>Source Files\Objects</Filter>
     </ClCompile>
     <ClCompile Include="BGM.cpp">

@@ -1,7 +1,6 @@
 #pragma once
 #include <string.h>
 #include "MenuBG.h"
-#include "LevelBoard.h"
 #include "Easy.h"
 #include "Normal.h"
 #include "Hard.h"
@@ -16,7 +15,6 @@ public:
 	void run(sf::RenderWindow &window, const string &songname, const int &speed, BGM &bgm, MenuBG &bg);
 
 private:
-	LevelBoard board;
 	Easy easy;
 	Normal normal;
 	Hard hard;

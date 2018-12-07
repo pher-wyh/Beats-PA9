@@ -159,7 +159,6 @@
     <ClCompile Include="Hit.cpp" />
     <ClCompile Include="HowToPlay.cpp" />
     <ClCompile Include="Level.cpp" />
-    <ClCompile Include="LevelBoard.cpp" />
     <ClCompile Include="MenuBG.cpp" />
     <ClCompile Include="Normal.cpp" />
     <ClCompile Include="PlayBG.cpp" />
@@ -203,7 +202,6 @@
     <ClInclude Include="Hit.h" />
     <ClInclude Include="HowToPlay.h" />
     <ClInclude Include="Level.h" />
-    <ClInclude Include="LevelBoard.h" />
     <ClInclude Include="MenuBG.h" />
     <ClInclude Include="BGM.h" />
     <ClInclude Include="Normal.h" />
